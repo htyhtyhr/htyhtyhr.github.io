@@ -3,19 +3,18 @@
   padding: 0px;
   font-family: "Comic Sans MS";
   text-decoration:none;
-  background-color: #020;
+  background-color: #0c0;
 }
 nav{
   position:sticky;
   padding:10px;
-  background-color:#091;
+  background-color:#051;
   box-shadow: 0 4px 15px rgba(52, 72, 52, 0.662);
 }
 .navBar{
   display: flex;
   margin: auto;
-  max-width: 1200px;
-  color: #051;
+  color: #fff;
   justify-content: space-between;
 }
 .navBar > div{
@@ -35,12 +34,12 @@ img{
   margin-right: 20px;
   padding:5px;
   border-radius:5px;
-  color: #051;
+  color: #fff;
   transition:all 0.2s ease-in-out;
 }
 .nav-links > a:hover{
   background-color: #075 !important;
-  color: #8cacda;
+  color: #ccc;
 }
  
  
