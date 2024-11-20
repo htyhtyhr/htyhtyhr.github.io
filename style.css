@@ -1,12 +1,13 @@
 body{
   font-family: "Comic Sans MS","Comic Sans";
   background-color:#090;
+  margin: 0;
 }
 nav{
   position:sticky;
   padding:10px;
   background-color:#060;
-  box-shadow: 0 4px 15px rgba(52, 52, 72, 0.662);
+  font-size: 200%;
 }
 .navBar{
    display: flex;
@@ -29,4 +30,10 @@ nav{
 .nav-links > a:hover{
    background-color: #040 !important;
    color: #aaa;
+}
+.main{
+  margin: 10pt;
+}
+nav > img{
+  scale: 70%;
 }
