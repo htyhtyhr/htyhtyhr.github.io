@@ -1,53 +1,56 @@
-        *{
-            margin: 0px;
-            padding: 0px;
-            font-family: "Comic Sans MS";
-            text-decoration:none;
-        }
-        nav{
-            position:sticky;
-            padding:10px;
-            background-color:#11233b;
-            box-shadow: 0 4px 15px rgba(52, 52, 72, 0.662);
-        }
-        .navBar{
-            display: flex;
-            margin: auto;
-            max-width: 1200px;
-            color: #dde6ed;
-            justify-content: space-between;
-        }
-        .navBar > div{
-            display: flex;
-            align-items: center;
-        }
-        .title img,span{
-            margin-right:20px;
-        }
-        .title>span{
-            font-size:1.5rem;
-        }
-        .nav-links > a{
-            margin-right: 20px;
-            padding:5px;
-            border-radius:5px;
-            color: #dde6ed;
-            transition:all 0.2s ease-in-out;
-        }
-        .nav-links > a:hover{
-            background-color: #a50000 !important;
-            color: #8cacda;
-        }
-       
-       
-        @media screen and (max-width:800px) {
-            .navBar{
-                display: flex;
-                flex-direction: column;
-            }
-            .navBar>div{
-                display: inline-block;
-                padding: 1% 2%;
-                margin:auto;
-            }
-        }
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comic Sans MS";
+  text-decoration:none;
+  background-color: #020;
+}
+nav{
+  position:sticky;
+  padding:10px;
+  background-color:#091;
+  box-shadow: 0 4px 15px rgba(52, 72, 52, 0.662);
+}
+.navBar{
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  color: #051;
+  justify-content: space-between;
+}
+.navBar > div{
+  display: flex;
+  align-items: center;
+}
+.title img,span{
+  margin-right:20px;
+}
+img{
+  scale: 70%;
+}
+.title>span{
+  font-size:1.5rem;
+}
+.nav-links > a{
+  margin-right: 20px;
+  padding:5px;
+  border-radius:5px;
+  color: #051;
+  transition:all 0.2s ease-in-out;
+}
+.nav-links > a:hover{
+  background-color: #075 !important;
+  color: #8cacda;
+}
+ 
+ 
+@media screen and (max-width:800px) {
+.navBar{
+  display: flex;
+  flex-direction: column;
+}
+.navBar>div{
+  display: inline-block;
+  padding: 1% 2%;
+  margin:auto;
+}
