@@ -7,7 +7,6 @@ nav{
   position:sticky;
   padding:10px;
   background-color:#060;
-  font-size: 200%;
 }
 .navBar{
    display: flex;
@@ -34,6 +33,9 @@ nav{
 .main{
   margin: 10pt;
 }
-nav > img{
-  scale: 70%;
+.title img,span{
+  margin-right:20px;
+}
+.title>span{
+  font-size:1.5rem;
 }
