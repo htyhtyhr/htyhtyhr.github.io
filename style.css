@@ -1,3 +1,32 @@
 body{
   font-family: "Comic Sans MS","Comic Sans";
+  background-color:#090;
+}
+nav{
+  position:sticky;
+  padding:10px;
+  background-color:#060;
+  box-shadow: 0 4px 15px rgba(52, 52, 72, 0.662);
+}
+.navBar{
+   display: flex;
+   margin: auto;
+   max-width: 1200px;
+   color: #fff;
+   justify-content: space-between;
+}
+.navBar > div{
+   display: flex;
+   align-items: center;
+}
+.nav-links > a{
+   margin-right: 20px;
+   padding:5px;
+   border-radius:5px;
+   color: #fff;
+   transition:all 0.2s ease-in-out;
+}
+.nav-links > a:hover{
+   background-color: #040 !important;
+   color: #aaa;
 }
