@@ -8,7 +8,7 @@ body{
 nav{
   position:sticky;
   padding:10px;
-  background-color:#094;
+  background-color:#044;
   box-shadow: 0 4px 15px rgba(52, 72, 52, 0.662);
 }
 .navBar{
@@ -22,20 +22,29 @@ nav{
   align-items: center;
 }
 .title img,span{
-  margin-right:20px;
+  margin-right:1vw;
 }
 img{
-  scale: 70%;
+  width: 3vw;
+  height: auto;
+  padding: .5vw;
 }
 .title>span{
-  font-size:1.5rem;
+  font-size:1.5vw;
 }
 .nav-links > a{
-  margin-right: 20px;
-  padding:5px;
-  border-radius:5px;
+  margin-right: auto;
+  padding: .2vw;
+  border-radius: .6vw;
   color: #fff;
   transition:all 0.2s ease-in-out;
+  border-style: solid;
+  border-width: 0.3vw;
+  border-left-width: 0.8vw;
+  border-right-width: 0.8vw;
+  border-color: #0000;
+  font-size: 1vw;
+  background-color: #055;
 }
 .nav-links > a:hover{
   background-color: #075 !important;
