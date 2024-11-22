@@ -3,12 +3,12 @@ body{
   padding: 0px;
   font-family: "Comic Sans MS";
   text-decoration:none;
-  background-color: #6d6;
+  background-color: #78ac77;
 }
 nav{
   position:sticky;
   padding:10px;
-  background-color:#044;
+  background-color:#97CEB9;
   box-shadow: 0 4px 15px rgba(52, 72, 52, 0.662);
 }
 .navBar{
@@ -44,10 +44,10 @@ img{
   border-right-width: 0.8vw;
   border-color: #0000;
   font-size: 1vw;
-  background-color: #055;
+  background-color: #b3dfca;
 }
 .nav-links > a:hover{
-  background-color: #075 !important;
+  background-color: #c4ffdb !important;
   color: #ccc;
 }
  
