@@ -51,7 +51,10 @@ img{
   background-color: #075 !important;
   color: #ccc;
 }
- 
+#logo {
+  background-color: #075;
+  border-radius: 100%;
+}
  
 @media screen and (max-width:800px) {
 .navBar{
