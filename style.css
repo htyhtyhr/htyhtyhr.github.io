@@ -21,15 +21,17 @@ nav{
   display: flex;
   align-items: center;
 }
-.title img,span{
+.title a{
   margin-right:1vw;
+  text-decoration: none;
+  color: #fff;
 }
 img{
   width: 2vw;
   height: auto;
   padding: .5vw;
 }
-.title>span{
+.title>a{
   font-size:1.5vw;
 }
 .nav-links > a{
