@@ -53,11 +53,24 @@ img{
   background-color: #075 !important;
   color: #ccc;
 }
+.nav-links > a:active{
+  background-color: #065 !important;
+  color: #ddd;
+}
 #logo {
   background-color: #075;
   border-radius: 100%;
 }
- 
+.bodyText{
+  margin: 0.5vw;
+}
+.bodyText > h1{
+  font-weight: bolder;
+}
+.bodyText > p{
+  text-indent: 1vw;
+}
+
 @media screen and (max-width:800px) {
 .navBar{
   display: flex;
